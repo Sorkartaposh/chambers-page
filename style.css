@@ -1,0 +1,323 @@
+/*
+========================
+Header area start
+========================
+*/
+
+body {	
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;    
+	background: #fff;
+	color: #333333;	
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-webkit-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-moz-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+.scrolltotop {
+    text-align: center;
+    padding-top: 8px;
+    font-size: 22px;
+    color: #ffffff;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+    transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -moz-transition: 0.2s all ease;
+    z-index: 9999;
+}
+.scrolltotop  img {
+    max-width:70px;
+    opacity:0.5;
+    transition:0.3s;
+}
+.scrolltotop  img:hover {
+    opacity:1;
+}
+.header-area {
+    background:url(img/hero-banner.png) no-repeat;
+    background-size: cover;
+    background-position:100% 100%;
+    padding-bottom:150px;
+    padding-top:60px;
+    /* height:100vh; */
+    position: relative;
+    z-index:999;
+    overflow-x:hidden;
+}
+.menu-area ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu-area ul li a {
+    text-decoration: none;
+    font-size:30px;
+    text-transform:uppercase;
+    color:#0DA04A;
+    position: relative;
+    padding: 0 50px;
+    transition:0.3s;
+}
+.menu-area ul li a:hover {
+    color:#fff;
+}
+.menu-area ul li a:after {
+    content:"";
+    display: block;
+    width:1px;
+    height:30px;
+    background-color: #0DA04A;
+    position: absolute;
+    top: 0;
+    left:-10px;
+}
+.hero-area {
+    margin-top: 60px;
+}
+.hero-area h2 {
+    font-weight:500;
+    font-size:38px;
+    color:#0DA04A;
+}
+.hero-area p {
+    font-weight:400;
+    font-size:30px;
+    color:#0DA04A;
+    margin-top:20px;
+}
+.hero-area > a img {
+    max-width:835px;
+}
+.hero-area a:last-of-type {
+    font-weight:500;
+    text-decoration:none;
+    background-color: #FFFFFF;
+    color:#334F5A;
+    font-size:25px;
+    border-radius:8px;
+    padding:12px 18px;
+    margin-top:20px;
+    display: inline-block;
+    transition:0.3s;
+}
+.hero-area a:last-of-type:hover {
+  color: #FFFFFF;
+  background-color:#334F5A;
+  box-shadow: rgba(255,255,255,1) 0px 0px 0px 3px;
+}
+
+/* side-bar start */
+.offcanvas-header {
+    background-color:#292864;
+}
+.offcanvas-header img {
+    width:120px;
+}
+.offcanvas-header button {
+    background-color: #fff;
+    opacity: 1;
+    position: absolute;
+    top:30px;
+    right:30px;
+    padding:10px !important;
+}
+.offcanvas-header button:hover {
+    opacity:1;
+}
+.offcanvas-body ul li{
+    display: block;
+}
+.offcanvas-body ul li a {
+    display: block;
+    text-decoration:none;
+    font-weight:500;
+    font-size:20px;
+    padding:10px 0;
+    color:#0DA04A;
+    transition:0.3s;
+}
+.offcanvas-start {
+    width:315px;
+}
+
+.mobile-bars img:first-of-type {
+    width:100px;
+}
+.mobile-bars img:last-of-type {
+    max-width:40px;
+    height: 25px;
+}
+
+.mobile-bars {
+    display: none !important;
+}
+
+/* side-bar end */
+
+/*
+========================
+offer area start
+========================
+*/
+.offer-area {
+    margin-top:100px;
+    margin-bottom:60px;
+    position: relative;
+    z-index:10;
+}
+.offer-item h1 {
+    font-weight:500;
+    font-size:67px;
+    color:#292865;
+    text-transform:uppercase;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+.offer-item span {
+    display: block;
+    width:50%;
+    height:4px;
+    background-color: #292865;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:50px;
+}
+.offer-item h1::after {
+    content: '';
+    display: inline-block;
+    border-top: 20px solid transparent;
+    border-right:30px solid #292865;
+    border-bottom:20px solid transparent;
+    position: absolute;
+    top:20px;
+    left:107%;
+}
+.offer-item h1::before {
+    content: '';
+    display: inline-block;
+    border-top: 20px solid transparent;
+    border-left: 30px solid #292865;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top:20px;
+    right:107%;
+}
+.offer-item p {
+    font-weight: 500;
+    color:#334F5A;
+    font-size:30px;
+    margin-bottom:35px;
+    text-align: center;
+}
+.offer-item-list {
+    margin-top:50px;
+}
+.offer-item-list ul li {
+    font-weight: 500;
+    color:#292865;
+    font-size:27px;
+    line-height: 35px;
+}
+.offer-bg {
+    width:100%;
+    position: absolute;
+    top:-550px;
+    left:0;
+    z-index:-1;
+    display: block;
+}
+.offer-btn a{
+    text-decoration:none;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size:25px;
+    color:#fff;
+    background-color:#292864;
+    margin-top:70px;
+    border-radius:8px;
+    padding:12px;
+    transition:0.3s;
+}
+.offer-btn a:hover {
+    background-color:#fff;
+    color:#292864;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+/*
+========================
+footer area start
+========================
+*/
+.footer-area {
+    background:url(img/bottom-bg.png) no-repeat;
+    background-size: cover;
+    background-position:top center;
+    position: relative;
+    z-index: 99;
+    padding:120px 0;
+}
+.footer-img img {
+    max-width:300px;
+}
+.f-bottom {
+    background-color:#292865;
+    padding:25px 0;
+    position: relative;
+    z-index:999;
+}
+.f-bottom p{
+    color:#fff;
+    font-weight: 500;
+    font-size:25px;
+    text-align: center;
+    margin:0;
+}
+.footer-item > a {
+    text-decoration:none;
+}
+.footer-item h3 {
+    font-weight:400;
+    font-size:34px;
+    color:#292865;
+    text-transform:uppercase;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.footer-item ul li a, .footer-item ul li{
+    display:inline-block;
+    text-decoration:none;
+    font-weight:500;
+    color:#fff;
+    font-size:25px;
+    text-transform: capitalize;
+}
+.footer-item ul li {
+    display: block;
+}

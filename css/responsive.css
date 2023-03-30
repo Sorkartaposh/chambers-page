@@ -1,0 +1,301 @@
+/*
+====================================
+large Screen - Others
+====================================
+*/
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .header-area {
+        background-position:50% 100%;
+    }
+    .offer-bg {
+        top:-350px;
+    }
+
+
+
+
+
+}
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .header-area {
+        background-position:50% 100%;
+    }
+    .offer-bg {
+        display: none;
+    }
+    .offer-area {
+        margin-top:50px;
+        margin-bottom:10px;
+    }
+    .offer-item h1 {
+        font-size:50px;
+    }
+    .offer-item span {
+        width:45%;
+    }
+.footer-area {
+    padding-top:200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.menu-area {
+    display: none;
+}
+.mobile-bars {
+    display: block !important;
+    display: flex !important;
+    justify-content:space-between;
+    align-items: center !important;
+}
+.header-area {
+    background-position:50% 100%;
+}
+.hero-area > a img {
+    max-width:550px;
+}
+.offer-bg {
+    display: none;
+}
+.offer-item h1 {
+    font-size:40px;
+}
+.offer-item p {
+    font-size:25px;
+}
+.offer-item-list ul li {
+    font-size: 25px;
+}
+.offer-item span {
+    width:40%;
+}
+.offer-item h1::after {
+    top:5px;
+}
+.offer-item h1::before {
+    top:5px;
+}
+.footer-area {
+    padding-top:200px;
+}
+.offer-item-list {
+    flex-wrap: wrap;
+}
+.offer-area {
+    margin-bottom:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .menu-area {
+        display: none;
+    }
+    .mobile-bars {
+        display: block !important;
+        display: flex !important;
+        justify-content:space-between;
+        align-items: center !important;
+    }
+    .header-area {
+        background-position:50% 100%;
+    }
+    .hero-area > a img {
+        max-width:500px;
+    }
+    .hero-area h2 {
+        font-size:30px;
+    }
+    .hero-area p {
+        font-size:25px;
+    }
+    .offer-bg {
+        display: none;
+    }
+    .offer-item-list {
+        flex-wrap: wrap;
+    }
+    .footer-area {
+        padding-top:200px;
+    }
+    .offer-item-list ul li {
+        font-size: 25px;
+    }
+    .offer-item span {
+        width:40%;
+    }
+    .offer-item h1::after {
+        top:5px;
+    }
+    .offer-item h1::before {
+        top:5px;
+    }
+    .offer-item h1 {
+        font-size:40px;
+    }
+    .offer-item p {
+        font-size:25px;
+    }
+
+    .offer-area {
+        margin-bottom:0;
+    }
+
+
+}
+
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+    .menu-area {
+        display: none;
+    }
+    .mobile-bars {
+        display: block !important;
+        display: flex !important;
+        justify-content:space-between;
+        align-items: center !important;
+    }
+    .header-area {
+        background-position:50% 100%;
+    }
+    .hero-area > a img {
+        max-width:250px;
+    }
+    .hero-area h2 {
+        font-size:25px;
+
+    }
+    .hero-area p {
+        font-size:20px;
+    }
+    .offer-bg {
+        display: none;
+    }
+    .offer-item-list {
+        flex-wrap: wrap;
+    }
+    .footer-area {
+        padding-top:200px;
+    }
+    .offer-item-list ul li {
+        font-size: 20px;
+    }
+    .offer-item span {
+        width:55%;
+    }
+    .offer-item h1::after {
+        top:5px;
+        border-top: 15px solid transparent;
+        border-right: 20px solid #292865;
+        border-bottom: 15px solid transparent;
+    }
+    .offer-item h1::before {
+        top:5px;
+        border-top: 15px solid transparent;
+        border-left: 20px solid #292865;
+        border-bottom: 15px solid transparent;
+    }
+    .offer-item h1 {
+        font-size:25px;
+    }
+    .offer-item p {
+        font-size:20px;
+    }
+
+    .offer-area {
+        margin-bottom:0;
+    }
+    .footer-img img {
+        width:200px;
+    }
+    .footer-item ul li a, .footer-item ul li  {
+        font-size:20px;
+    }
+    .f-bottom p {
+        font-size:20px;
+    }
+.header-area {
+    padding-top:20px;
+}
+.hero-area a:last-of-type {
+    font-size:20px;
+    padding:10px 15px;
+}
+.footer-item h3 {
+    font-size:25px;
+    margin-bottom:10px;
+}
+.footer-area {
+    padding-bottom:40px;
+}
+
+
+
+
+
+
+
+
+}
